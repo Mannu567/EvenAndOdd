@@ -1,8 +1,9 @@
-print("program to identify if the number is even or odd")
+def iseven(number):
+    if number %2 ==0:
+        print("This is an even number.")
+    else:
+        print("this is an odd number.")
 
-number=int(input("Enter a number"))
+num =int(input("enter a number:"))
 
-if number % 2==0:
-    print("The number is even")
-else:
-    print("The number is odd")
+iseven(num)
